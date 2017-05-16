@@ -20,7 +20,6 @@
         this.$http.get('http://cs003.m2828.com/apis/getPage.php?path=/rank/list').then(res=>{
           Indicator.close();
           this.parseList(res.data);
-          console.log(res.data);
         });
       },
       parseList(data){

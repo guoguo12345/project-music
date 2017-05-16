@@ -7,6 +7,10 @@ const router = new VueRouter({
 	routes:[{
     path:'/index',component:require('../views/index')
   },{
+    path:'/register',component:require('../views/register')
+  },{
+    path:'/login',component:require('../views/login')
+  },{
     path:'/rank',component:require('../views/rank')
   },{
     path:'/ringtone',component:require('../views/ringtone')

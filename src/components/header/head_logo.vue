@@ -1,7 +1,8 @@
 <template>
   <div class="logo-container">
     <div class="head-download">
-      <a>爱音乐</a>
+      <router-link to="/index">爱音乐</router-link>
+      <router-link to="/login">登录</router-link>
     </div>
     <div class="head-search" @click="searchRouter">
       <img src="http://m.kugou.com/v3/static/images/index/search.png">
